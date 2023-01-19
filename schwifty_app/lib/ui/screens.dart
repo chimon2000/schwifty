@@ -1,9 +1,6 @@
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:gap/gap.dart';
 import 'package:schwifty_app/providers.dart';
-import 'package:schwifty_app/ui/router.dart';
 
 class CharacterDetailScreen extends ConsumerWidget {
   const CharacterDetailScreen({required this.id, super.key});
